@@ -18,7 +18,7 @@ const Post = (props) => {
     };
 
     fetchPost();
-  }, []);
+  }, [id]);
 
   return (
     <div className="container mx-auto">
