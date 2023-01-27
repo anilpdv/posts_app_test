@@ -15,6 +15,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate }) => {
         {pageNumbers.map((number) => (
           <li key={number} className="mx-1">
             <a
+              href="!#"
               onClick={() => {
                 paginate(number);
                 setCurrentPage(number);
